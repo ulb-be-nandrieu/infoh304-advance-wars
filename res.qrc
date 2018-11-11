@@ -1,10 +1,9 @@
 <RCC>
     <qresource prefix="/images">
-        <file>terrain/1_plain.gif</file>
-        <file>terrain/2_mountain.gif</file>
-        <file>terrain/3_wood.gif</file>
-        <file>units/geinfantry.gif</file>
-        <file>units/getank.gif</file>
+        <file>3_wood.gif</file>
+        <file>getank.gif</file>
+        <file>geinfantry.gif</file>
+        <file>1_plain.gif</file>
+        <file>2_mountain.gif</file>
     </qresource>
-    <qresource prefix="/units"/>
 </RCC>

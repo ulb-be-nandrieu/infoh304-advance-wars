@@ -188,10 +188,10 @@ int MainWindow::damage(Unit* ua, Unit* ud,int x,int y){
 
 void MainWindow::paintEvent(QPaintEvent* event){
    QPainter painter(this);
-   QPixmap plain(":/images/terrain/1_plain.gif");
-   QPixmap mountain(":/images/terrain/2_mountain.gif");
-   QPixmap getank(":/images/units/getank.gif");
-   QPixmap geinfantry(":/images/units/geinfantry.gif");
+   QPixmap plain(":/images/1_plain.gif");
+   QPixmap mountain(":/images/2_mountain.gif");
+   QPixmap getank(":/images/getank.gif");
+   QPixmap geinfantry(":/images/geinfantry.gif");
    for (int i=0;i<sizemap;i++){
         int t = ter[i]->gettype();
         int x = ter[i]->getposX();
